@@ -1,0 +1,30 @@
+/**
+ * Learning about PEMDAS
+ * 
+ * Marie Galley 
+ * September 8
+ */
+public class ArthmiticDemo
+{
+    public static void main (String[] args) {
+        int result = 4 * 2;
+        System.out.println("4 * 2  = " + result);
+        int original_result = result;
+        result = result / 4;
+        Stystem.out.println("The division part of this is basically just repeated subraction");
+        System.out.println(original_result + " / 4 = " + result);
+        original_result = result;
+        result = result / 4;      
+        System.out.println(original_result + " / 4 = " + result);
+        original_result = result;
+        System.out.println("This result shows that when you divide integers together you get the result as an integer"); 
+        result = result + 10;     
+        System.out.println(original_result + " + 10 = " + result);
+        original_result = result;
+        result = result - 2;        
+        System.out.println(original_result + " - 2 = " + result);
+        original_result = result;
+        result = result + 7;       
+        System.out.println(original_result + " + 7 = " + result);
+}
+}
